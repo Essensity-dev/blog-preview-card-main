@@ -1,0 +1,91 @@
+* { 
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root { 
+    color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 50%);
+    color: hsl(0, 0%, 7%);
+}
+
+body { 
+    font-family: "Figtree";
+    background-color: #F4D04E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main { 
+    width: 384px;
+    height: 522;
+    padding: 20px 5px;
+    background-color: white;
+    margin: 50px;
+    border-radius: 20px;
+    border: solid 1px black;
+    box-shadow: 8px 8px 0px black;
+}
+
+.Picture { 
+    text-align: center;
+}
+
+.Details,.Description,.User {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.Picture img { 
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.Details a{ 
+    font-size: 14px;
+    font-weight:900;
+    color: black;
+    background-color: #F4D04E;
+    padding: 4px 12px;
+    border-radius: 4px;
+}
+
+.Details p {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Description h2{
+    font-size: 24px;
+    margin-top: 12px;
+    font-weight: 800;
+}
+
+.Description p { 
+    color: #7F7F7F;
+    font-size: 16px;
+    margin: 12px 0;
+}
+
+.User { 
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.User img { 
+    width: 32px;
+    height: 32px;
+}
+
+.User h4 { 
+    font-size: 14px;
+    font-weight: 800;
+    margin-left: 12px;
+}
